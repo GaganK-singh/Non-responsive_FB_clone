@@ -1,0 +1,112 @@
+
+body{
+    background-color: white;    
+}
+div.fb-logo{
+    float: left;
+}
+form{
+    display: block;
+    border:none;
+    background-color:white;
+    margin-left: 840px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+    box-shadow: 0px 5px 15px 5px #8888883a;
+    border-radius: 8px;
+    width: 375px;
+}
+div.login-details{
+    display: block;
+}
+input.login-id-div{
+    width: 350px;
+    height: 47px;
+    font-size: 17px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    /* border-color: #4495ff; */
+    padding-inline-start: 20px;
+    margin-bottom: 13px;
+}
+input.password-div{
+    width: 350px;
+    height: 47px;
+    font-size: 17px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    /* border-color: #4495ff; */
+    padding-inline-start: 20px;
+    margin-bottom: 15px;
+}
+input:hover{
+    border-color: #4495ff;
+}
+button.login-button{
+    background-color: #1877f2;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #1877f2;
+    color: aliceblue;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    padding: 0 16px;
+    width: 375px;
+    margin-bottom: 15px;
+}
+
+button.create-account{
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    color: aliceblue;
+    font-size: 17px;
+    width: 200px;
+    height: 47px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 85px;
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+a.forgot-pass{
+    padding-left: 120px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #4495ff;
+}
+.fb-text{
+    font-family: Arial;
+    font-size: 27px;
+    margin-bottom: 200px;
+    margin-left: 260px;
+    padding-top: 0px;
+}
+.img-src{
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+div.terms-condition{
+    padding-left: 490px;
+    margin-left: 400px;
+}
+a.terms-condition{
+    text-decoration: none;
+    color: black;
+}
